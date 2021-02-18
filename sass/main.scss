@@ -1,12 +1,5 @@
-.header {
-    background-color: #fff;
-}
+@import "./utils/variables";
+@import "./utils/visually-hidden";
 
-.body {
-    padding: 0;
-}
-
-
-.button {
-    width: 100px;
-}
+@import "./base/common";
+@import "./base/container";
