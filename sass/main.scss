@@ -4,5 +4,21 @@
 @import "./base/common";
 @import "./base/container";
 
-@import "./layout/header";
-@import "./layout/navigation";
+@import "./components/page-header";
+@import "./components/logo";
+@import "./components/site-nav";
+@import "./components/auth-nav";
+@import "./components/icon-nav";
+
+@import "./components/overlay";
+@import "./components/hero";
+
+@import "./components/section";
+@import "./components/social";
+
+@import "./components/button";
+@import "./components/content";
+@import "./components/company";
+
+@import "./components/page-footer";
+@import "./components/modal";
