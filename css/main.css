@@ -63,4 +63,13 @@ img {
   padding-right: 15px;
   width: 1200px;
 }
+
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
