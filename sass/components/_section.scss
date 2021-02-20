@@ -8,28 +8,6 @@
     padding-bottom: 94px;
 }
 
-.features {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.features .item {
-    max-width: 270px;
-}
-
-.thumb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: var(--subsecondary-bg-color);
-}
-
-.features .item.item:not(:last-child) {
-    margin-right: 30px;
-}
-
 .section-subtitle {
     margin-top: 0;
     margin-bottom: 10px;
@@ -68,12 +46,11 @@
 
 .section-work-list {
     width: 370px;
-}
 
-.section-work-list:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
-
 
 .section-work-item {
     position: relative;
@@ -98,26 +75,26 @@
     letter-spacing: 0.03em;
 }
 
-    .instruction {
+    .command {
         padding-top: 94px;
         padding-bottom: 94px;
         background-color: var(--subsecondary-bg-color);
     }
 
-    .section-instruction {
+    .section-command {
         display: flex;
     }
 
-    .section-instruction .item {
+    .section-command-item {
         width: 270px;
 
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
             0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
         border-radius: 0px 0px 4px 4px;
-    }
 
-    .section-instruction .item:not(:last-child) {
-        margin-right: 30px;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
     }
 
     .masters-contact {

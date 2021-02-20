@@ -31,11 +31,3 @@
 }
 
 
-.company-list-icon {
-    transition: fill var(--duration) var(--timing-function);
-}
-
-.company-list-link:hover .company-list-icon,
-.company-list-link:focus .company-list-icon {
-    fill: var(--accent-color);
-}

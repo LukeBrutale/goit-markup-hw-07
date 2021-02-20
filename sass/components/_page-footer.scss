@@ -35,26 +35,26 @@
     margin-top: 0;
 }
 
-.footer-nav .button {
+.footer-nav-button {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     line-height: 1.7;
     text-decoration: none;
 
     transition: color var(--duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
-.footer-nav .button:hover,
-.footer-nav .button:focus {
-    color: var(--accent-color);
-}
-
-.footer-nav .item {
+.footer-nav-item {
     font-weight: 400;
-}
 
-.footer-nav .item:not(:last-child) {
-    margin-bottom: 9px;
+     &:not(:last-child) {
+         margin-bottom: 9px;
+     }
 }
 
 .footer-social {
@@ -83,21 +83,19 @@
     fill: var(--primary-write-color);
 
     transition: background-color var(--duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
+
 }
-
-
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-    background-color: var(--accent-color);
-}
-
 .footer-social-icon {
     width: 20px;
     height: 20px;
 }
 
-.conect {
+.footer-social-conect {
     color: var(--primary-write-color);
     margin-bottom: 20px;
 }
@@ -106,7 +104,7 @@
     margin: 0 0 0 auto;
 }
 
-.mailing {
+.form-footer-text {
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -131,16 +129,17 @@
     border-radius: 4px;
     color: #FFFFFF;
     background-color: var(--secondary-bg-color);
-}
 
-.form-footer input::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
+    .form-footer &::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
 
-    color: rgba(255, 255, 255, 0.6);
+        color: rgba(255, 255, 255, 0.6);
+    }
+
 }
 
 .form-footer button {
@@ -156,21 +155,23 @@
     color: var(--primary-write-color);
     background-color: var(--accent-color);
     transition: box-shadow var(--duration) var(--timing-function);
+
+    .form-footer &:hover,
+    .form-footer &:focus {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
 }
 
-.form-footer button:hover,
-.form-footer button:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
 
-.subscribe {
+
+.form-footer-subscribe {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer-icon-send {
+.form-footer-icon {
     width: 24px;
     height: 24px;
     margin-left: 10px;
