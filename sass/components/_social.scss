@@ -19,16 +19,11 @@
     fill: var(--icon-color);
 
     transition: background-color var(--duration) var(--timing-function);
-}
 
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-    fill: var(--primary-write-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
 .social-list-icon {
@@ -36,4 +31,9 @@
     height: 20px;
 
     transition: fill var(--duration) var(--timing-function);
+
+    .social-list-link:hover &,
+    .social-list-link:focus & {
+        fill: var(--primary-write-color);
+    }
 }
