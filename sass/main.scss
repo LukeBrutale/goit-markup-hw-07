@@ -4,23 +4,23 @@
 @import "./base/common";
 @import "./base/container";
 
-@import "./components/page-header";
-@import "./components/logo";
-@import "./layout/site-nav";
-@import "./layout/auth-nav";
-@import "./components/icon-nav";
+@import "./layout/page-header";
+@import "./layout/logo";
+@import "./components/site-nav";
+@import "./components/auth-nav";
+@import "./layout/icon-nav";
 
-@import "./components/overlay";
-@import "./components/hero";
+@import "./layout/overlay";
+@import "./layout/hero";
 
-@import "./components/section";
-@import "./components/features";
-@import "./components/social";
+@import "./layout/section";
+@import "./layout/features";
+@import "./layout/social";
 
-@import "./layout/button";
-@import "./components/content";
-@import "./components/company";
-@import "./components/company-icon";
+@import "./components/button";
+@import "./layout/content";
+@import "./layout/company";
+@import "./layout/company-icon";
 
-@import "./components/page-footer";
-@import "./components/modal";
+@import "./layout/page-footer";
+@import "./layout/modal";
